@@ -21,3 +21,8 @@ app.listen(port, function () {
 });
 
 
+
+
+app.get('/bingo', function (req, res) {
+    res.end("Bingo")
+})
